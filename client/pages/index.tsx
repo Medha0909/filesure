@@ -453,7 +453,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="Media">
+      <div id="Media">
         <Media />
       </div>
 
