@@ -131,10 +131,11 @@ gap: 32px;
 
 }
 
-# Media{
+.Media{
   width: 1440px;
 height: 1392px;
 gap: 0px;
+background-color: black;
 top:1650px;
 position: absolute;
 }
@@ -149,7 +150,6 @@ position: absolute;
   padding: 16px 24px 16px 24px; 
   gap: 80px; 
   border-radius: 12px 12px 12px 12px; 
-  opacity: 0px; 
   background-color: #FFFFFF; 
   z-index: 58; 
   position: fixed; 
@@ -163,7 +163,6 @@ position: absolute;
     width: 57px; 
 height: 18px; 
 gap: 0px; 
-opacity: 0px; 
 margin-left: 250px; 
 font-size: 14px; 
 font-weight: 600; 
@@ -178,7 +177,6 @@ color:#101828;
     width: 41px; 
 height: 18px; 
 gap: 0px; 
-opacity: 0px; 
 font-size: 14px; 
 font-weight: 600; 
 line-height: 18px; 
@@ -219,14 +217,12 @@ width: 174px;
 height: 170px; 
 gap: 0px; 
 top: -40px; 
-opacity: 0px; 
 position: absolute; 
   } 
   .f1{ 
   width: 1440px; 
   height: 900px; 
   gap: 0px; 
-  opacity: 0.5px; 
   overflow: hidden;
   background-color:#F2F4F7; 
   } 
@@ -234,8 +230,7 @@ position: absolute;
     width: 624px; 
     height: 1976.98px; 
     gap: 0px; 
-    border-radius: 24px 0px 0px 0px; 
-    opacity: 0px;   
+    border-radius: 24px 0px 0px 0px;  
   position: absolute; 
   } 
    
@@ -246,7 +241,6 @@ position: absolute;
   left: 568px; 
   gap: 0px; 
   border-radius: 24px 0px 0px 0px; 
-  opacity: 0px; 
   transform: rotate(338deg); 
   position: absolute; 
   } 
@@ -257,7 +251,6 @@ position: absolute;
     left: 892.52px; 
     gap: 0px; 
     border-radius: 24px 0px 0px 0px; 
-    opacity: 0px;   
   transform: rotate(338deg); 
   position: absolute; 
    
@@ -269,7 +262,6 @@ position: absolute;
     left: 824.73px; 
     gap: 0px; 
     border-radius: 24px 0px 0px 0px; 
-    opacity: 0px;   
   transform: rotate(338deg); 
   position: absolute; 
      
@@ -281,7 +273,6 @@ position: absolute;
     left: 1139.95px; 
     gap: 0px; 
     border-radius: 24px 24px 24px 24px; 
-    opacity: 10px;   
   transform: rotate(338deg); 
   position: absolute; 
   clip-path: polygon(0% 0%, 100% 0%, 99% 60%, 80% 82%, 62% 100%, 0 100%);
@@ -295,8 +286,7 @@ position: absolute;
     top: 730.84px; 
     left: 1071.48px; 
     gap: 0px; 
-    border-radius: 2px 2px 2px 2px; 
-    opacity: 10px;   
+    border-radius: 2px 2px 2px 2px;    
   transform: rotate(338deg); 
   position: absolute; 
   clip-path: polygon(0% 0%, 100% 0%, 100% 34%, 58% 26%, 0 15.2%);
@@ -308,8 +298,7 @@ position: absolute;
     top: 630.91px; 
     left: 1361.73px; 
     gap: 0px; 
-    border-radius: 24px 0px 0px 0px; 
-    opacity: 10px;   
+    border-radius: 24px 0px 0px 0px;  
   transform: rotate(338deg); 
   position: absolute; 
   clip-path:polygon(0% 0%, 70% 0, 34% 39%, 0 32%);
