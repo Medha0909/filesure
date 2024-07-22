@@ -34,7 +34,6 @@ export default function Home() {
   const [val, setVal] = useState('');
   return (
     <>
-      <h1> Hello</h1>
       <div className="@apply w-[1179px] h-[92px] gap-20 opacity-[0px] bg-white z-[58] fixed ml-20 mt-6 px-6 py-4 rounded-[12px_12px_12px_12px]">
         <img
           className="@apply w-[174px] h-[170px] gap-0 opacity-[0px] absolute -top-10"
@@ -730,9 +729,9 @@ export default function Home() {
               </Card>
             </div>
           </div>
-          
+          </div>
         </div>
-        <div className="@apply w-[1440px] h-[568px] gap-6 opacity-[0px] absolute px-[108px] py-20 top-[800px] bg-myColor">
+        <div className="@apply w-[1440px] h-[568px] gap-6 opacity-[0px] absolute px-[108px] py-20 top-[2770px] bg-myColor">
           <div className="  @apply w-[600px] h-[408px] gap-8 opacity-[0px]">
             <div className="  @apply w-[600px] h-[52px] gap-0 opacity-[0px] text-4xl font-bold leading-[51.84px] tracking-[0.32645100355148315px] text-left text-[#101828]">
               <span>Our team</span>
@@ -782,7 +781,6 @@ export default function Home() {
 
 
         </div>
-    </div>
     </>
   );
 }
