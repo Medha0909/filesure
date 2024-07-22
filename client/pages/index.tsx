@@ -34,9 +34,11 @@ export default function Home() {
   const [val, setVal] = useState('');
   return (
     <>
+      <h1>Dwivedi</h1>
      <div>
+       <h1>Hello</h1>
         <div className="FAQ">
-        
+        <h1>Medha</h1>
           <Faq />
 
 
