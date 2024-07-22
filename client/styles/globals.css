@@ -131,11 +131,10 @@ gap: 32px;
 
 }
 
-.Media{
+# Media{
   width: 1440px;
 height: 1392px;
 gap: 0px;
-background-color: black;
 top:1650px;
 position: absolute;
 }
