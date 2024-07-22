@@ -34,13 +34,14 @@ export default function Home() {
   const [val, setVal] = useState('');
   return (
     <>
-     
+     <div
         <div className="FAQ">
         
           <Faq />
 
 
         </div>
+      </div>
     </>
   );
 }
