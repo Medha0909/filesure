@@ -135,7 +135,6 @@ gap: 32px;
   width: 1440px;
 height: 1392px;
 gap: 0px;
-background-color: black;
 top:1650px;
 position: absolute;
 }
@@ -389,7 +388,7 @@ position: flex;
 top: 9px;
 }
 .img9{
-padding: 0 0 0 10px;
+padding: 0 0 20px 10px;
 position: absolute;
 }
 .c1{
@@ -411,6 +410,7 @@ gap: 0px;
 .c3{
 width: 600px;
 height: 116px;
+
 gap: 24px;
 
 
