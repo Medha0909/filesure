@@ -31,10 +31,10 @@ import {
 } from "@/components/ui/card";
 
 export default function Home() {
-
   const [val, setVal] = useState('');
   return (
     <>
+      <h1>Hello</h1>
       <div className="@apply w-[1179px] h-[92px] gap-20 opacity-[0px] bg-white z-[58] fixed ml-20 mt-6 px-6 py-4 rounded-[12px_12px_12px_12px]">
         <img
           className="@apply w-[174px] h-[170px] gap-0 opacity-[0px] absolute -top-10"
@@ -81,7 +81,8 @@ export default function Home() {
                 </tr>
               </tbody>
             </table>
-          </div>   
+          </div>
+
           <div className="@apply text-sm font-semibold leading-[18px] tracking-[0.2px] text-left absolute left-[1000px] top-[37px] text-myColors">
             <table>
               <tbody>
@@ -261,6 +262,527 @@ export default function Home() {
               </tbody>
             </table>
           </div>
-        </div></>
+        </div>
+        <div className="  @apply w-[961px] h-[340px] gap-0 opacity-[0px] absolute left-[108px] top-[1179.17px]">
+          <div className="  @apply w-[600px] h-[52px] gap-0 opacity-[0px]">
+            <div className="  @apply w-[600px] h-[52px] gap-0 opacity-[0px] text-4xl font-bold leading-[51.84px] tracking-[0.32645100355148315px] text-left">
+              <span>Full development cycle</span>
+            </div>
+            <br />
+            <div className="  @apply w-[600px] h-5 gap-0 opacity-[0px] text-[15px] font-medium leading-5 tracking-[-0.23999999463558197px] text-left top-[600px]">
+              <span>We use proven technologies</span>
+            </div>
+          </div>
+        </div>
+        <div className="  @apply w-[496px] h-[200px] gap-8 opacity-[0px] absolute left-[108px] top-[1317.17px]">
+          <div className="  @apply w-[496px] h-[84px] gap-4 opacity-[0px]">
+            <div className="  @apply w-[496px] h-6 gap-0 opacity-[0px] text-xl font-semibold leading-6 tracking-[0.3799999952316284px] text-left text-[#101828]">
+              <span>Web</span>
+            </div>
+            <div className="  @apply w-[496px] h-11 gap-0 opacity-[0px] text-[17px] font-normal leading-[22px] tracking-[-0.40799999237060547px] text-left absolute top-[50px]">
+              <span>
+                PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js/
+                Nuxt / MySQL / Laravel / GO lang / django / Python
+              </span>
+            </div>
+          </div>
+          <div className="  @apply w-[496px] h-[84px] gap-4 opacity-[0px] absolute top-[120px]">
+            <div className="  @apply w-[496px] h-6 gap-0 opacity-[0px] text-xl font-semibold leading-6 tracking-[0.3799999952316284px] text-left text-[#101828]">
+              <span>Mobile</span>
+            </div>
+            <div className="  @apply w-[496px] h-11 gap-0 opacity-[0px] text-[17px] font-normal leading-[22px] tracking-[-0.40799999237060547px] text-left absolute top-[50px]">
+              <span>
+                Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm
+                / Coroutine / RxJava / RxSwift / Unit Test / Navigation
+              </span>
+            </div>
+          </div>
+          <div className="  @apply w-[233px] h-[340px] top-[-130.17px] gap-0 opacity-[0px] absolute left-[736px]">
+            <div className="  @apply w-[Hug_(190px)px] h-[Hug_(48px)px] gap-3 opacity-[0px] px-0 py-3">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <span className="  @apply w-[154px] h-6 gap-0 opacity-[0px] text-xl font-normal leading-6 tracking-[0.3799999952316284px] text-left text-[#1D2939] mr-2.5 hover:text-[black] hover:font-semibold hover:border-b-[#80A948] hover:border-b hover:border-solid">
+                        iOS development
+                      </span>
+                    </td>
+                    <td>
+                      <span className="text-myColors">
+                        <MdKeyboardArrowRight />
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="  @apply w-[Hug_(190px)px] h-[Hug_(48px)px] gap-3 opacity-[0px] px-0 py-3">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div className="  @apply w-[230px] h-[Hug_(28px)px] gap-1 opacity-[0px]">
+                        <span className="  @apply w-[154px] h-6 gap-0 opacity-[0px] text-xl font-normal leading-6 tracking-[0.3799999952316284px] text-left text-[#1D2939] mr-2.5 hover:text-[black] hover:font-semibold hover:border-b-[#80A948] hover:border-b hover:border-solid">
+                          Android development
+                        </span>
+                      </div>
+                    </td>
+                    <td>
+                      <span className="text-myColors">
+                        <MdKeyboardArrowRight />
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="  @apply w-[Hug_(194px)px] h-[Hug_(48px)px] gap-3 opacity-[0px] px-0 py-3">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <span className="  @apply w-[154px] h-6 gap-0 opacity-[0px] text-xl font-normal leading-6 tracking-[0.3799999952316284px] text-left text-[#1D2939] mr-2.5 hover:text-[black] hover:font-semibold hover:border-b-[#80A948] hover:border-b hover:border-solid">
+                        web development
+                      </span>
+                    </td>
+                    <td>
+                      <span className="text-myColors">
+                        <MdKeyboardArrowRight />
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="  @apply w-[Hug_(153px)px] h-[Hug_(48px)px] gap-3 opacity-[0px] px-0 py-3">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <span className="  @apply w-[154px] h-6 gap-0 opacity-[0px] text-xl font-normal leading-6 tracking-[0.3799999952316284px] text-left text-[#1D2939] mr-2.5 hover:text-[black] hover:font-semibold hover:border-b-[#80A948] hover:border-b hover:border-solid">
+                        UI/UX design
+                      </span>
+                    </td>
+                    <td>
+                      <span className="text-myColors">
+                        <MdKeyboardArrowRight />
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="  @apply w-[Hug_(99px)px] h-[Hug_(48px)px] gap-3 opacity-[0px] px-0 py-3">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <span className="  @apply w-[154px] h-6 gap-0 opacity-[0px] text-xl font-normal leading-6 tracking-[0.3799999952316284px] text-left text-[#1D2939] mr-2.5 hover:text-[black] hover:font-semibold hover:border-b-[#80A948] hover:border-b hover:border-solid">
+                        testing
+                      </span>
+                    </td>
+                    <td>
+                      <span className="text-myColors">
+                        <MdKeyboardArrowRight />
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="  @apply w-[Hug_(101px)px] h-[Hug_(48px)px] gap-3 opacity-[0px] px-0 py-3">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <span className="  @apply w-[154px] h-6 gap-0 opacity-[0px] text-xl font-normal leading-6 tracking-[0.3799999952316284px] text-left text-[#1D2939] mr-2.5 hover:text-[black] hover:font-semibold hover:border-b-[#80A948] hover:border-b hover:border-solid">
+                        launch
+                      </span>
+                    </td>
+                    <td>
+                      <span className="text-myColors">
+                        <MdKeyboardArrowRight />
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="  @apply w-[Hug_(148px)px] h-[Hug_(48px)px] gap-3 opacity-[0px] px-0 py-3;">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <span className="  @apply w-[154px] h-6 gap-0 opacity-[0px] text-xl font-normal leading-6 tracking-[0.3799999952316284px] text-left text-[#1D2939] mr-2.5 hover:text-[black] hover:font-semibold hover:border-b-[#80A948] hover:border-b hover:border-solid">
+                        IT consulting
+                      </span>
+                    </td>
+                    <td>
+                      <span className="text-myColors">
+                        <MdKeyboardArrowRight />
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div
+        className="  @apply w-[1440px] h-[344px] gap-0 opacity-[0px] absolute top-[1653px]"
+        style={{
+          background: "linear-gradient(90deg, #fabc1f 0%, #7ca546 100%)",
+        }}
+      >
+        <div className="@apply w-[701px] h-[168px] gap-6 opacity-[0px]">
+          <div className="  @apply w-[600px] h-[104px] gap-0 opacity-[0px] text-4xl font-bold leading-[51.84px] tracking-[0.32645100355148315px] text-left absolute text-white mt-[60px] left-[100px]">
+            Let's discuss
+          </div>
+          <div className="  @apply w-[600px] h-[104px] gap-0 opacity-[0px] text-4xl font-bold leading-[51.84px] tracking-[0.32645100355148315px] text-left absolute text-white left-[100px] top-[110px]">
+            Your project
+          </div>
+
+          <div className="  @apply w-[600px] h-10 gap-0 opacity-[0px] text-[15px] font-medium leading-5 text-left text-white absolute text-white left-[100px] top-[190px]">
+            Let's figure out how to create an effective application,
+          </div>
+          <div className="  @apply w-[600px] h-10 gap-0 opacity-[0px] text-[15px] font-medium leading-5 text-left text-white absolute text-white mt-[210px] left-[100px]">
+            its cost and terms of its development
+          </div>
+        </div>
+        <div className="  @apply w-[520px] h-[244px] absolute gap-6 opacity-[0px] bg-white shadow-[0px_0px_24px_0px_#00000029] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] left-[790px] top-[50px]"></div>
+        <div className="a1 p">
+        <div className="  @apply w-[472px] h-[132px] gap-6 opacity-[0px]">
+        <form action="#">
+        <div className="  @apply w-[472px] h-[54px] gap-6 opacity-[0px]">
+        
+        <div className="  @apply w-56 h-[54px] gap-2 opacity-[0px] border-b-[0.5px] border-b-[#D0D5DD] border-solid">
+        <label><span className="@apply w-56 h-4 gap-0 opacity-[0px] text-[13px] font-medium leading-4 tracking-[-0.07800000160932541px] text-left text-[#667085]">Full name</span></label>
+        <input type="text" name="fname" value="My Name"></input>
+        </div>
+        <div className="  @apply w-56 h-[54px] gap-2 opacity-[0px] absolute border-b-[0.5px] border-b-[#D0D5DD] border-solid left-[224.4px] top-0">
+        <label><span className="@apply w-56 h-4 gap-0 opacity-[0px] text-[13px] font-medium leading-4 tracking-[-0.07800000160932541px] text-left text-[#667085]">Phone number</span></label>
+        <PhoneInput
+      placeholder="Enter phone number"
+      value="+91 0000000000"
+      onChange={(e) => {}}/>
+
+        </div>
+        
+        </div>
+        <div className="  @apply w-[472px] h-[54px] gap-6 opacity-[0px]">
+        <div className="  @apply w-[226px] h-[54px] gap-2 opacity-[0px] absolute border-b-[0.7px] border-b-[#D0D5DD] border-solid top-20">
+        <label><span className="@apply w-56 h-4 gap-0 opacity-[0px] text-[13px] font-medium leading-4 tracking-[-0.07800000160932541px] text-left text-[#667085]">Business name</span></label>
+        <input type="text" name="bname" value="ABC Technologies PVT LTD"></input>
+        </div>
+        <div className="  @apply w-56 h-[54px] gap-2 opacity-[0px] absolute border-b-[0.7px] border-b-[#D0D5DD] border-solid left-[224.4px] top-20">
+        <label><span className="@apply w-56 h-4 gap-0 opacity-[0px] text-[13px] font-medium leading-4 tracking-[-0.07800000160932541px] text-left text-[#667085]">Business mail</span></label>
+        <input type="email" name="fname" value="demoaccount@gmail.com"></input>
+
+
+        </div>
+        
+        </div>
+
+        </form>
+        </div>
+        <button className="  @apply w-[178px] h-10 gap-2.5 opacity-[0px] absolute px-6 py-[11px] rounded-[8px_8px_8px_8px] left-[270px] top-40 bg-myCol">
+        <span className="  @apply w-[130px] h-[18px] gap-0 opacity-[0px] text-white text-sm font-semibold leading-[18px] tracking-[-0.15399999916553497px] text-center absolute left-[25px] top-2.5">Discuss the project</span>
+        </button>
+        </div>
+      
+      </div>
+
+      <div className="  @apply w-[1440px] h-[810px] gap-10 opacity-[0px] bg-white absolute top-[1990px]">
+        <div className="  @apply w-[Hug_(600px)px] h-[Hug_(52px)px] gap-8 opacity-[0px] absolute left-[108px] top-20">
+          <span className="@apply w-[600px] h-[52px] gap-0 opacity-[0px] text-4xl font-bold leading-[51.84px] tracking-[0.32645100355148315px] text-left text-[#101828]">
+            Application Development Stages
+          </span>
+        </div>
+        <img
+          className="  @apply w-[440px] h-[764px] gap-0 opacity-[0px] absolute left-[500px] top-[76px]"
+          src="https://s3-alpha-sig.figma.com/img/ad8c/bbf4/2fe0abf10a9dbe09a8119211ba203571?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=F1W5tKyyMlt32lz2aLEZsu6jLcUNd93Dtom54DHJoI1Sp2SGkIIp-51wZJHCcQ9aavP95RH0gmuQtsrDDS8wO5Lpz524PSsxF9g9ua0Mc9IMXTPqXay~QXhXdy1Nqzas-PK7KWxJUPqG~xTJLIim3QkRCwtahgrlTZCq5B~F1KQdxn6n4f92MwhnUR3E6UZBAFgX8Htqr84kzXPPMiPzTJ8BBligh7HlYVhqZz5-AGVFzVDsifbwf8xrXLAHUr13B-boYIBjgepOGvX~T-2rShryr6Dtvtdr9FPDNmhc5MhiTpZ2DGbMa3HD3clp3-VkIRi8M8PalCwyp9N8HtI0OA__"
+          alt="phone"
+        ></img>
+
+        <div className="  @apply w-[1224px] h-[564px] gap-[440px] opacity-[0px] absolute left-[108px] top-[166px]">
+          <div className="  @apply w-[392px] h-[564px] gap-6 opacity-[0px]">
+            <div className="c1">
+              <Card className="  @apply w-[392px] h-[172px] gap-4 opacity-[0px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
+                <CardHeader>
+                  <CardTitle>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <Image
+                              className="  @apply absolute w-[57px] h-[45px] top-5"
+                              src={c1log}
+                              alt="c1log"
+                            ></Image>
+                          </td>
+                          <td>
+                            <span className="  @apply w-[78px] h-6 gap-0 opacity-[0px] text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[30px]">
+                              Analysis
+                            </span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="  @apply w-[344px] h-[60px] gap-0 opacity-[0px] text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
+                  <Image className="c1img" src={c1img} alt="c1img"></Image>
+                  <p>
+                    We craft precise technical specs, aligning with your
+                    business, technology, and user requirements.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+            <div className="c2">
+              <Card className="  @apply w-[392px] h-[172px] gap-4 opacity-[0px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
+                <CardHeader>
+                  <CardTitle>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <Image
+                              className="@apply absolute w-[57px] h-[45px] top-[210px]"
+                              src={c2log}
+                              alt="c2log"
+                            ></Image>
+                          </td>
+                          <td>
+                            <span className="  @apply w-[78px] h-6 gap-0 opacity-[0px] text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[220px]">
+                              Design
+                            </span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="  @apply w-[344px] h-[60px] gap-0 opacity-[0px] text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
+                  <Image
+                    className="  @apply w-[85.9px] h-[172px] gap-0 opacity-[0px] absolute text-[black] left-[305px] top-[194px]"
+                    src={c2img}
+                    alt="c2img"
+                  ></Image>
+                  <p>
+                    We adapt the customer's corporate identity to the platform
+                    guidelines. We draw convenient and understandable
+                    interfaces.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="c2">
+              <Card className="  @apply w-[392px] h-[172px] gap-4 opacity-[0px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
+                <CardHeader>
+                  <CardTitle>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <Image
+                              className="  @apply absolute w-[57px] h-[45px] top-[410px]"
+                              src={c3log}
+                              alt="c3log"
+                            ></Image>
+                          </td>
+                          <td>
+                            <span className="  @apply w-[78px] h-6 gap-0 opacity-[0px] text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[420px]">
+                              Development
+                            </span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="@apply w-[344px] h-[60px] gap-0 opacity-[0px] text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
+                  <Image
+                    className="  @apply w-[85.9px] h-[172px] gap-0 opacity-[0px] absolute text-[black] left-[305px] top-[386px]"
+                    src={c3img}
+                    alt="c3img"
+                  ></Image>
+                  <p>
+                    We create an extensible architecture, write clean and stable
+                    code. We integrate with customer technologies.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+          <div className="  @apply w-[392px] h-[564px] gap-6 top-[-5px] absolute opacity-[0px] left-[825px]">
+            <div className="c1">
+              <Card className="  @apply w-[392px] h-[172px] gap-4 opacity-[0px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
+                <CardHeader>
+                  <CardTitle>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <Image
+                              className="@apply absolute w-[57px] h-[45px] top-5"
+                              src={c4log}
+                              alt="c4log"
+                            ></Image>
+                          </td>
+                          <td>
+                            <span className="  @apply w-[78px] h-6 gap-0 opacity-[0px] text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[30px]">
+                              Testing
+                            </span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="  @apply w-[344px] h-[60px] gap-0 opacity-[0px] text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
+                  <Image className="c1img" src={c4img} alt="c4img"></Image>
+                  <p>
+                    We carry out functional testing and do bug fixes. We adapt
+                    the application to different phone resolutions
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+            <div className="c2">
+              <Card className="  @apply w-[392px] h-[172px] gap-4 opacity-[0px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
+                <CardHeader>
+                  <CardTitle>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <Image
+                              className="  @apply absolute w-[57px] h-[45px] top-[210px]"
+                              src={c5log}
+                              alt="c5log"
+                            ></Image>
+                          </td>
+                          <td>
+                            <span className="  @apply w-[78px] h-6 gap-0 opacity-[0px] text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[220px]">
+                              Launching
+                            </span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="  @apply w-[344px] h-[60px] gap-0 opacity-[0px] text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
+                  <Image
+                    className="  @apply w-[85.9px] h-[172px] gap-0 opacity-[0px] absolute text-[black] left-[305px] top-[194px]"
+                    src={c5img}
+                    alt="c5img"
+                  ></Image>
+                  <p>
+                    We design the application page and publish it in the App
+                    Store and Google Play stores.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="c2">
+              <Card className="  @apply w-[392px] h-[172px] gap-4 opacity-[0px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
+                <CardHeader>
+                  <CardTitle>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <Image
+                              className="  @apply absolute w-[57px] h-[45px] top-[410px]"
+                              src={c6log}
+                              alt="c6log"
+                            ></Image>
+                          </td>
+                          <td>
+                            <span className="  @apply w-[78px] h-6 gap-0 opacity-[0px] text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[420px]">
+                              support
+                            </span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="  @apply w-[344px] h-[60px] gap-0 opacity-[0px] text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
+                  <Image
+                    className="  @apply w-[85.9px] h-[172px] gap-0 opacity-[0px] absolute text-[black] left-[305px] top-[386px]"
+                    src={c6img}
+                    alt="c6img"
+                  ></Image>
+                  <p>
+                    We monitor the stability of the application, update it for
+                    new devices and versions of iOS and Android.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+          
+        </div>
+        <div className="@apply w-[1440px] h-[568px] gap-6 opacity-[0px] absolute px-[108px] py-20 top-[800px] bg-myColor">
+          <div className="  @apply w-[600px] h-[408px] gap-8 opacity-[0px]">
+            <div className="  @apply w-[600px] h-[52px] gap-0 opacity-[0px] text-4xl font-bold leading-[51.84px] tracking-[0.32645100355148315px] text-left text-[#101828]">
+              <span>Our team</span>
+            </div>
+            <div className="  @apply w-[600px] h-10 gap-0 opacity-[0px] text-[15px] font-medium leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828] my-[30px]">
+              <span>Thousand is a full-cycle digital production company with its own product analytics, design, web and mobile development.</span>
+            </div>
+            <div className="  @apply w-[584px] h-[113px] gap-4 opacity-[0px] px-0 py-2">
+            <div className="  @apply w-[184px] h-[97px] gap-2 opacity-[0px];">
+              <div className="  @apply w-[163px] h-[69px] gap-0 opacity-[0px] text-5xl font-bold leading-[69.12px] tracking-[0.32645100355148315px] text-left text-[#101828]">
+                <span>28</span>
+              </div>
+              <div className="  @apply w-[184px] h-5 gap-0 opacity-[0px] text-[15px] font-medium leading-5 tracking-[-0.23999999463558197px] text-left text-[#667085] mt-2.5">
+                <span>team members</span>
+              </div>
+            </div>
+            <div className="  @apply w-[184px] h-[97px] gap-2 opacity-[0px] absolute left-[292px] top-60">
+            <div className="  @apply w-[163px] h-[69px] gap-0 opacity-[0px] text-5xl font-bold leading-[69.12px] tracking-[0.32645100355148315px] text-left text-[#101828]">
+                <span>+100</span>
+              </div>
+              <div className="  @apply w-[184px] h-5 gap-0 opacity-[0px] text-[15px] font-medium leading-5 tracking-[-0.23999999463558197px] text-left text-[#667085] mt-2.5">
+                <span>projects</span>
+              </div>
+            </div>
+            <div className="  @apply w-[184px] h-[97px] absolute gap-2 opacity-[0px] left-[476px] top-60">
+            <div className="  @apply w-[163px] h-[69px] gap-0 opacity-[0px] text-5xl font-bold leading-[69.12px] tracking-[0.32645100355148315px] text-left text-[#101828]">
+                <span>7 years</span>
+              </div>
+              <div className="  @apply w-[184px] h-5 gap-0 opacity-[0px] text-[15px] font-medium leading-5 tracking-[-0.23999999463558197px] text-left text-[#667085] mt-2.5">
+                <span>in IT sphere</span>
+              </div>
+            </div>  
+            <div className="  @apply w-[600px] h-10 gap-0 opacity-[0px] text-[15px] font-medium leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828] mt-[50px]">
+              <span>All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it</span>
+              </div>
+            </div>
+            </div>
+            <div className="  @apply w-[600px] h-[400px] gap-0 opacity-[0px] absolute left-[732px] top-20">
+            <img className="  @apply w-[600px] h-[400px] gap-0 opacity-[0px] rounded-[12px_12px_12px_12px]" src="https://s3-alpha-sig.figma.com/img/6208/80bf/5e83a8ecb37adc3c547562b3daeded65?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dOSA~KZJBSTmN~9W108m9znbOOyybabFPeNcRiMogP3pIxo2o4WPfIIi493gzIFx48KhLvI2OYNroHaZRaX7ya30v4lK7x2zBhw98lF5LvCs8N-akiWc8AjWOO~pcQYek3jbhRxV3e1gu7Ax6or0WtkXKiMZYr7HhC5tHBzbQXQwb~S9X9SZpvGuBguiBY3nHye4KFP5iGGt6pQzWusqL3MVrGMLUgKWee35fFn8DjbkI8s~y9aS4mJxK5CjEmipo6T4dPvL7iBePxzv7wER1Rk64UJuTqekP1lpaIKoT0bVLG1tbqdO0FCi5rePgwkEzHWjgmkg6Y3cmV3YfDvu7w__" alt="team"></img>
+            
+            </div>
+        </div>
+
+        <div className="FAQ">
+        
+          <Faq />
+
+
+        </div>
+    </div>
+    </>
   );
 }
