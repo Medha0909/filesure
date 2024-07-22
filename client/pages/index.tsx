@@ -34,7 +34,7 @@ export default function Home() {
   const [val, setVal] = useState('');
   return (
     <>
-      <h1>Hello</h1>
+      <h1> Hello</h1>
       <div className="@apply w-[1179px] h-[92px] gap-20 opacity-[0px] bg-white z-[58] fixed ml-20 mt-6 px-6 py-4 rounded-[12px_12px_12px_12px]">
         <img
           className="@apply w-[174px] h-[170px] gap-0 opacity-[0px] absolute -top-10"
