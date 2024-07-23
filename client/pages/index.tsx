@@ -48,7 +48,7 @@ export default function Home() {
               Services
             </span>
           </a>
-          <a href="#Media" className="no-underline">
+          <a href="#" className="no-underline">
             <span className="@apply w-[41px] h-[18px] gap-0  text-sm font-semibold leading-[18px] tracking-[0.2px] text-left text-[#101828] ml-[25px]">
               Media
             </span>
@@ -217,16 +217,6 @@ export default function Home() {
             src="https://s3-alpha-sig.figma.com/img/1e5a/9875/8d3e8f60cb7154b40b7e9574aa3943f4?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e~1zQ-m9v6DUqAnnX79Ub9SLyF2-~YOCyxS-8YMZwCvjzHuB-htJ3e0hct8v~59airldSfVP60UfqMxjWAYY~gi1hN0MJ53v4TvGyLSdwHPKmD2VLu9yCJCsLBiVteQphbSthqA27ygcwTXLRX7wSN84lcBq~NbtpPSXXIatGnDJ2A~jhrfQUt~rYYfiobdmvBwOPwLEgqUk~OlN78Y9kV7vjZs8tcqBoWGTYc~5Ca00vEGfkrBDCSPc9dEzxsRG1uQoM8-qwJ1dnO3hn5GeV8IytAq0O12CtKJiQGebjAqbcbUmlmJLY~fAOj~11gXvxgJdcJbA2y-eLmN~Vac5AQ__"
             alt="img4"
           ></img>
-          <img
-            className="img5"
-            src="https://s3-alpha-sig.figma.com/img/5abd/11fd/39e11af175707d5a31caffa40d2a51e0?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oY6r3fWdDNJeN~HnkFx2tR~U-wP3jbuST2FF2wsUnXlxsNzCCckpyF-NmzQb1tEKZe4Ve0rF4OpBqoIjJWy2h8eS-zRJjQYS1CQDnfgaELF1MGrx5HvSyc3qVlbH8DbXQC0PUycosdy3kEvcolJI2o2KoCXeXU4MtlSEOLGXJkzShbKpo10pvzhZ2lqqZNnF6IWyaT4jluIb3NfquXl5urpWr7ViI7YabLlpC8HS--ZXr173mGsIUy3SNUEgl7Sau7YHf9xevaC9omFzXlrauTMvOvzfSbHyoG8kusHvPCN93w0P7n1DVfDrFB7X-jR3nB5DJJTizug8L6oXUbLqUw__"
-            alt="img5"
-          ></img>
-          <img
-            className="img6"
-            src="https://s3-alpha-sig.figma.com/img/9eb5/0887/fbc231627dd24c764990817126cf7eb1?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JPhyAZVtGwmadARs1BaQ6QLIl~6Sn8MvUQOuS5uFUD-9Ru2aFjd-BVCXb5pxGXwqBoRn9iYgdNHr79h38P~KOEJsc7TfBnYo-u7aX9H6pwez5UMx8~75K9IbkhbAv8vqudzHjNzYOyjQhT8EoMl7~8mhdbcYIqB97ayTIfmjWQUPijhd3J6F7uEzIL883rZaF79uO0~NNzdMFPR~3W1C~vcNkONO07fmlw1ooHr6W-Rie9tdkxhcf5k8a00JDiG6bSnTmIjBjlIPezKpOCTHuFpYbNvbqus7dZsVQi1-W2NfG5JJzeFs8h1m9KZNyQvG8NuwhtsUWsQX-euIjJf1DQ__"
-            alt="img6"
-          ></img>
         </div>
       </div>
 
@@ -283,10 +273,8 @@ export default function Home() {
             </table>
           </div>
         </div>
-        <div
-          id="Services"
-          className="  @apply w-[961px] h-[340px] gap-0  absolute left-[108px] top-[1179.17px]"
-        >
+        </div>
+        <div id ="Services" className="  @apply w-[961px] h-[340px] gap-0  absolute left-[108px] top-[1179.17px]">
           <div className="  @apply w-[600px] h-[52px] gap-0 ">
             <div className="  @apply w-[600px] h-[52px] gap-0  text-4xl font-bold leading-[51.84px] tracking-[0.32645100355148315px] text-left">
               <span>Full development cycle</span>
@@ -400,7 +388,7 @@ export default function Home() {
                 <tbody>
                   <tr>
                     <td>
-                      <span className="  @apply w-[154px] h-6 gap-0  text-xl font-normal leading-6 tracking-[0.3799999952316284px] text-left text-[#1D2939] mr-2.5 hover:text-[black] hover:font-semibold hover:border-b-[#80A948] hover:border-b hover:border-solid">
+                      <span className="  @apply w-[154px] h-6 gap-0 text-xl font-normal leading-6 tracking-[0.3799999952316284px] text-left text-[#1D2939] mr-2.5 hover:text-[black] hover:font-semibold hover:border-b-[#80A948] hover:border-b hover:border-solid">
                         testing
                       </span>
                     </td>
@@ -413,7 +401,7 @@ export default function Home() {
                 </tbody>
               </table>
             </div>
-            <div className="  @apply w-[Hug_(101px)px] h-[Hug_(48px)px] gap-3  px-0 py-3">
+            <div className="  @apply w-[Hug_(101px)px] mb-[20px] h-[Hug_(48px)px] gap-3  px-0 py-3">
               <table>
                 <tbody>
                   <tr>
@@ -451,11 +439,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+
 
       <div id="Media">
         <Media />
-      </div>
+          </div>
 
       <div
         className="  @apply w-[1440px] h-[344px] gap-0  absolute top-[3040px]"
@@ -540,11 +528,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        id="Cases"
-        className="  @apply w-[1440px] h-[810px] gap-10  bg-white absolute top-[3385px]"
-      >
-        <div className="  @apply w-[Hug_(600px)px] h-[Hug_(52px)px] gap-8  absolute left-[108px] top-20">
+      <div id="Cases" className="  @apply w-[1440px] h-[810px] gap-10  bg-white absolute top-[3385px]">
+        <div className="  @apply w-[600px] h-[52px] gap-8  absolute left-[108px] top-20">
           <span className="@apply w-[600px] h-[52px] gap-0  text-4xl font-bold leading-[51.84px] tracking-[0.32645100355148315px] text-left text-[#101828]">
             Application Development Stages
           </span>
@@ -555,7 +540,7 @@ export default function Home() {
           alt="phone"
         ></img>
 
-        <div className="  @apply w-[1224px] h-[564px] gap-[440px]  absolute left-[108px] top-[166px]">
+        <div className="  @apply w-[1224px] h-[564px] gap-[440px]  absolute left-[8px] top-[-440px]">
           <div className="  @apply w-[392px] h-[564px] gap-6 ">
             <div className="c1">
               <Card className="  @apply w-[392px] h-[172px] gap-4  bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
@@ -589,9 +574,9 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
-            </div>
-            <div className="c2">
-              <Card className="  @apply w-[392px] h-[172px] gap-4  bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
+
+              <div className="c2">
+              <Card className=" @apply w-[392px] top-[200px] absolute h-[172px] gap-4  bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
                 <CardHeader>
                   <CardTitle>
                     <table>
@@ -599,13 +584,13 @@ export default function Home() {
                         <tr>
                           <td>
                             <Image
-                              className="@apply absolute w-[57px] h-[45px] top-[210px]"
+                              className="@apply absolute w-[57px] h-[45px] top-[20px]"
                               src={c2log}
                               alt="c2log"
                             ></Image>
                           </td>
                           <td>
-                            <span className="  @apply w-[78px] h-6 gap-0  text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[220px]">
+                            <span className="  @apply w-[78px] h-6 gap-0  text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[30px]">
                               Design
                             </span>
                           </td>
@@ -616,7 +601,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="  @apply w-[344px] h-[60px] gap-0  text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
                   <Image
-                    className="  @apply w-[85.9px] h-[172px] gap-0  absolute text-[black] left-[305px] top-[194px]"
+                    className="  @apply w-[85.9px] h-[172px] gap-0  absolute text-[black] left-[303px] top-[-1px]"
                     src={c2img}
                     alt="c2img"
                   ></Image>
@@ -627,24 +612,24 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
-            </div>
+              </div>
 
-            <div className="c2">
-              <Card className="  @apply w-[392px] h-[172px] gap-4  bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
-                <CardHeader>
+              <div className="c2">
+              <Card className="  @apply w-[392px] h-[172px] gap-4 absolute top-[400px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]"> 
+              <CardHeader>
                   <CardTitle>
                     <table>
                       <tbody>
                         <tr>
                           <td>
                             <Image
-                              className="  @apply absolute w-[57px] h-[45px] top-[410px]"
+                              className="  @apply absolute w-[57px] h-[45px] top-[20px]"
                               src={c3log}
                               alt="c3log"
                             ></Image>
                           </td>
                           <td>
-                            <span className="  @apply w-[78px] h-6 gap-0  text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[420px]">
+                            <span className="  @apply w-[78px] h-6 gap-0  text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[25px]">
                               Development
                             </span>
                           </td>
@@ -655,7 +640,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="@apply w-[344px] h-[60px] gap-0  text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
                   <Image
-                    className="  @apply w-[85.9px] h-[172px] gap-0  absolute text-[black] left-[305px] top-[386px]"
+                    className="  @apply w-[85.9px] h-[172px] gap-0  absolute text-[black] left-[303px] top-[-1px]"
                     src={c3img}
                     alt="c3img"
                   ></Image>
@@ -666,10 +651,15 @@ export default function Home() {
                 </CardContent>
               </Card>
             </div>
+
+            </div>
+            
+
+
           </div>
-          <div className="  @apply w-[392px] h-[564px] gap-6 top-[-5px] absolute  left-[825px]">
+          <div className=" @apply w-[392px] h-[564px] gap-6">
             <div className="c1">
-              <Card className="  @apply w-[392px] h-[172px] gap-4  bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
+              <Card className="  @apply w-[392px] h-[172px] gap-4 absolute left-[820px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
                 <CardHeader>
                   <CardTitle>
                     <table>
@@ -702,21 +692,20 @@ export default function Home() {
               </Card>
             </div>
             <div className="c2">
-              <Card className="  @apply w-[392px] h-[172px] gap-4  bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
-                <CardHeader>
+            <Card className="  @apply w-[392px] h-[172px] gap-4 absolute left-[928px] top-[810px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">                <CardHeader>
                   <CardTitle>
                     <table>
                       <tbody>
                         <tr>
                           <td>
                             <Image
-                              className="  @apply absolute w-[57px] h-[45px] top-[210px]"
+                              className="  @apply absolute w-[57px] h-[45px] top-[20px]"
                               src={c5log}
                               alt="c5log"
                             ></Image>
                           </td>
                           <td>
-                            <span className="  @apply w-[78px] h-6 gap-0  text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[220px]">
+                            <span className="  @apply w-[78px] h-6 gap-0  text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[30px]">
                               Launching
                             </span>
                           </td>
@@ -727,7 +716,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="  @apply w-[344px] h-[60px] gap-0  text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
                   <Image
-                    className="  @apply w-[85.9px] h-[172px] gap-0  absolute text-[black] left-[305px] top-[194px]"
+                    className="  @apply w-[85.9px] h-[172px] gap-0  absolute text-[black] left-[303px] top-[-1px]"
                     src={c5img}
                     alt="c5img"
                   ></Image>
@@ -737,10 +726,11 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
+              
             </div>
 
             <div className="c2">
-              <Card className="  @apply w-[392px] h-[172px] gap-4  bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]">
+            <Card className="  @apply w-[392px] h-[172px] gap-4 absolute left-[928px] top-[1010px] bg-white shadow-[0px_2px_24px_0px_#00000014] shadow-[0px_0px_2px_0px_#00000014] pt-6 pb-0 px-0 rounded-[12px_12px_12px_12px] border-[none]"> 
                 <CardHeader>
                   <CardTitle>
                     <table>
@@ -748,13 +738,13 @@ export default function Home() {
                         <tr>
                           <td>
                             <Image
-                              className="  @apply absolute w-[57px] h-[45px] top-[410px]"
+                              className="  @apply absolute w-[57px] h-[45px] top-[20px]"
                               src={c6log}
                               alt="c6log"
                             ></Image>
                           </td>
                           <td>
-                            <span className="  @apply w-[78px] h-6 gap-0  text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[420px]">
+                            <span className="  @apply w-[78px] h-6 gap-0  text-xl font-bold leading-6 tracking-[0.3799999952316284px] text-left absolute pl-5 left-20 top-[25px]">
                               support
                             </span>
                           </td>
@@ -765,7 +755,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="  @apply w-[344px] h-[60px] gap-0  text-[15px] font-normal leading-5 tracking-[-0.23999999463558197px] text-left text-[#101828]">
                   <Image
-                    className="  @apply w-[85.9px] h-[172px] gap-0  absolute text-[black] left-[305px] top-[386px]"
+                    className="  @apply w-[85.9px] h-[172px] gap-0  absolute text-[black] left-[303px] top-[-1px]"
                     src={c6img}
                     alt="c6img"
                   ></Image>
@@ -778,7 +768,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        
       </div>
+      
       <div className="@apply w-[1440px] h-[568px] gap-6  absolute px-[108px] py-20 top-[4170px] bg-myColor">
         <div className="  @apply w-[600px] h-[408px] gap-8 ">
           <div className="  @apply w-[600px] h-[52px] gap-0  text-4xl font-bold leading-[51.84px] tracking-[0.32645100355148315px] text-left text-[#101828]">
@@ -834,12 +827,16 @@ export default function Home() {
       </div>
 
       <div id="faq">
+        
         <Faq />
       </div>
 
       <div id="footer">
+        
         <Footer />
       </div>
+      
+
     </>
   );
 }
