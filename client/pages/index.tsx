@@ -217,6 +217,17 @@ export default function Home() {
             src="https://s3-alpha-sig.figma.com/img/1e5a/9875/8d3e8f60cb7154b40b7e9574aa3943f4?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e~1zQ-m9v6DUqAnnX79Ub9SLyF2-~YOCyxS-8YMZwCvjzHuB-htJ3e0hct8v~59airldSfVP60UfqMxjWAYY~gi1hN0MJ53v4TvGyLSdwHPKmD2VLu9yCJCsLBiVteQphbSthqA27ygcwTXLRX7wSN84lcBq~NbtpPSXXIatGnDJ2A~jhrfQUt~rYYfiobdmvBwOPwLEgqUk~OlN78Y9kV7vjZs8tcqBoWGTYc~5Ca00vEGfkrBDCSPc9dEzxsRG1uQoM8-qwJ1dnO3hn5GeV8IytAq0O12CtKJiQGebjAqbcbUmlmJLY~fAOj~11gXvxgJdcJbA2y-eLmN~Vac5AQ__"
             alt="img4"
           ></img>
+                    <img
+            className="img5"
+            src="https://s3-alpha-sig.figma.com/img/5abd/11fd/39e11af175707d5a31caffa40d2a51e0?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oY6r3fWdDNJeN~HnkFx2tR~U-wP3jbuST2FF2wsUnXlxsNzCCckpyF-NmzQb1tEKZe4Ve0rF4OpBqoIjJWy2h8eS-zRJjQYS1CQDnfgaELF1MGrx5HvSyc3qVlbH8DbXQC0PUycosdy3kEvcolJI2o2KoCXeXU4MtlSEOLGXJkzShbKpo10pvzhZ2lqqZNnF6IWyaT4jluIb3NfquXl5urpWr7ViI7YabLlpC8HS--ZXr173mGsIUy3SNUEgl7Sau7YHf9xevaC9omFzXlrauTMvOvzfSbHyoG8kusHvPCN93w0P7n1DVfDrFB7X-jR3nB5DJJTizug8L6oXUbLqUw__"
+            alt="img5"
+          ></img>
+          <img
+            className="img6"
+            src="https://s3-alpha-sig.figma.com/img/9eb5/0887/fbc231627dd24c764990817126cf7eb1?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JPhyAZVtGwmadARs1BaQ6QLIl~6Sn8MvUQOuS5uFUD-9Ru2aFjd-BVCXb5pxGXwqBoRn9iYgdNHr79h38P~KOEJsc7TfBnYo-u7aX9H6pwez5UMx8~75K9IbkhbAv8vqudzHjNzYOyjQhT8EoMl7~8mhdbcYIqB97ayTIfmjWQUPijhd3J6F7uEzIL883rZaF79uO0~NNzdMFPR~3W1C~vcNkONO07fmlw1ooHr6W-Rie9tdkxhcf5k8a00JDiG6bSnTmIjBjlIPezKpOCTHuFpYbNvbqus7dZsVQi1-W2NfG5JJzeFs8h1m9KZNyQvG8NuwhtsUWsQX-euIjJf1DQ__"
+            alt="img6"
+          ></img>
+
         </div>
       </div>
 
